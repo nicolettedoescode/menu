@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f4f1ea; /* Soft off-white, earthy background */
+    color: #4f4f4f; /* Earthy dark brown */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff; /* Clean white background for contrast */
+    width: 500px; /* Reduced width of the container */
+    padding: 20px; /* Slightly reduced padding around the container */
+    border-radius: 8px; /* Smaller border radius */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border: 1px solid #e0dcd1; /* Smaller border */
+    box-sizing: border-box; /* Include padding in width/height */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 15px; /* Reduced margin at the bottom */
+}
+
+h1 {
+    font-size: 2.2em; /* Slightly smaller font size */
+    margin: 0;
+    color: #6b705c; /* Muted green */
+    font-weight: 700;
+    letter-spacing: 1.5px; /* Reduced letter spacing */
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 15px; /* Reduced margin at the bottom */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px; /* Reduced margin between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4f4f4f; /* Earthy dark brown */
+    font-weight: bold;
+    font-size: 1em; /* Slightly smaller font size */
+    padding-bottom: 3px; /* Reduced padding for the underline effect */
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-color: #6b705c; /* Green underline on hover */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 15px; /* Reduced margin at the bottom */
+}
+
+h2 {
+    font-size: 1.6em; /* Slightly smaller font size for section titles */
+    color: #6b705c; /* Muted green for headings */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px; /* Reduced margin at the bottom */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1em; /* Slightly smaller font size for list items */
+    padding: 8px 0; /* Reduced padding for list items */
+    background-color: #f7f5f2; /* Light beige background for items */
+    border-radius: 5px; /* Smaller border radius */
+    margin: 5px 0; /* Margin for separation */
+    padding: 8px; /* Adjusted padding */
+    color: #4f4f4f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #8e8d8a; /* Soft gray for footer */
+    padding-top: 15px; /* Reduced padding */
+    border-top: 1px solid #ddd;
+}
+
+/* Add subtle hover effect to menu items */
+ul li:hover {
+    background-color: #e9e8e5; /* Slightly darker beige on hover */
+}

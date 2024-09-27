@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional inline CSS for smaller text */
+        body {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 14px; /* Smaller font size for the entire document */
+            background-color: #f4f1ea; /* Soft off-white, earthy background */
+            color: #4f4f4f; /* Earthy dark brown */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align items to the top */
+            height: auto; /* Allow the height to adjust automatically */
+            min-height: 100vh; /* Ensure it covers full viewport height */
+        }
+
+        .container {
+            background-color: #fff; /* Clean white background for contrast */
+            width: 800px; /* Adjusted width for better visibility */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            border: 2px solid #e0dcd1; /* Soft beige border */
+            overflow: auto; /* Allow for scrolling if needed */
+        }
+
+        header h1 {
+            font-size: 2em; /* Smaller font size for the main title */
+        }
+
+        nav ul li a {
+            font-size: 1em; /* Smaller font size for navigation */
+        }
+
+        section h2 {
+            font-size: 1.5em; /* Smaller headings for sections */
+        }
+
+        ul li {
+            font-size: 0.9em; /* Smaller list item text */
+        }
+
+        footer p {
+            font-size: 0.8em; /* Smaller footer text */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Our Little Cafe</h1>
+            <nav>
+                <ul>
+                    <li><a href="#coffee">Coffee</a></li>
+                    <li><a href="#pastries">Pastries</a></li>
+                    <li><a href="#sandwiches">Sandwiches</a></li>
+                    <li><a href="#drinks">Drinks</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hot Drinks Section -->
+        <section id="coffee">
+            <h2>Coffee</h2>
+            <h3>Hot Drinks</h3>
+            <ul>
+                <li>Espresso - £2.50</li>
+                <li>Americano - £2.75</li>
+                <li>Cappuccino - £3.25</li>
+                <li>Latte - £3.50</li>
+                <li>Flat White - £3.25</li>
+                <li>Mocha - £3.75</li>
+            </ul>
+            <h3>Iced Drinks</h3>
+            <ul>
+                <li>Iced Americano - £2.75</li>
+                <li>Iced Latte - £3.50</li>
+                <li>Vanilla Latte - £3.75</li>
+                <li>Caramel Latte - £3.75</li>
+                <li>Iced Vanilla Latte - £3.75</li>
+                <li>Iced Caramel Latte - £3.75</li>
+            </ul>
+        </section>
+
+        <!-- Pastries Section -->
+        <section id="pastries">
+            <h2>Pastries</h2>
+            <ul>
+                <li>Croissant - £2.00</li>
+                <li>Blueberry Muffin - £2.50</li>
+                <li>Chocolate Chip Cookie - £1.50</li>
+            </ul>
+        </section>
+
+        <!-- Sandwiches Section -->
+        <section id="sandwiches">
+            <h2>Sandwiches</h2>
+            <ul>
+                <li>Grilled Cheese - £4.50</li>
+                <li>Turkey Club - £5.50</li>
+                <li>Ham and Cheese - £5.00</li>
+            </ul>
+        </section>
+
+        <!-- Drinks Section -->
+        <section id="drinks">
+            <h2>Drinks</h2>
+            <ul>
+                <li>Orange Juice - £2.50</li>
+                <li>Smoothie - £4.00</li>
+                <li>Tea - £2.00</li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Our Little Cafe</p>
+        </footer>
+    </div>
+
+    <!-- Add JavaScript file for interactivity -->
+    <script src="script.js"></script>
+</body>
+</html>
